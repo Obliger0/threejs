@@ -36,7 +36,33 @@ button {
 	pointer-events: none;
 	z-index: 1; /* TODO Solve this in HTML */
 }
-
+#portflio {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1;
+}
+#portflio a {
+	color: #8ff;
+    background-color: #1a2525;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+	transition: all 0.4s;
+}
+#portflio a:hover {
+    color: #131515;
+	background-color: rgb(60, 81, 81);
+}
 a, button, input, select {
 	pointer-events: auto;
 }
